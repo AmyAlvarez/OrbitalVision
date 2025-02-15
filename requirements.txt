@@ -1,1 +1,5 @@
+opencv-python==4.9.0.80       # Image processing, feature detection, feature matching
+numpy==1.26.3                 # Mathematical operations, keypoints, descriptors
+matplotlib==3.8.2             # Visualization of keypoints, feature matches, and plots
+
 
