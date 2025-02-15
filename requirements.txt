@@ -1,5 +1,6 @@
 opencv-python==4.9.0.80       # Image processing, feature detection, feature matching
 numpy==1.26.3                 # Mathematical operations, keypoints, descriptors
 matplotlib==3.8.2             # Visualization of keypoints, feature matches, and plots
-
+scipy==1.11.4                 # Essential for camera pose estimation (Essential Matrix, Homography)
+open3d==0.17.0                # For 3D point cloud visualization and reconstruction
 
