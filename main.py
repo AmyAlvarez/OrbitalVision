@@ -26,8 +26,8 @@ preprocess_images(RAW_DATA_FOLDER, PROCESSED_DATA_FOLDER)
 print("\n Running Feature Detection...")
 extract_keypoints(PROCESSED_DATA_FOLDER, KEYPOINTS_FOLDER)
 
-### **3️⃣ Step 3: Match Features Between Frames**
+### Match Features Between Frames
 print("\n Running Feature Matching...")
 match_features(KEYPOINTS_FOLDER, PROCESSED_DATA_FOLDER, MATCHES_FOLDER)
 
-print("\nPipeline complete! All processed data is saved in the structured directories.")
+print("\n Complete. All processed data is saved in the structured directories.")
